@@ -1,0 +1,102 @@
+#module {
+
+  .module {
+    
+    .history {
+      width: 100%;
+      bottom: 100%;
+      padding: 0 7px;
+      flex: 0 0 100%;
+    
+      .history__next svg {
+        transform: translateX(2px);
+      }
+      .history__actions {
+        display: flex;
+        align-items: center;
+        margin: 0 -10px;
+        margin-bottom: 10px;
+    
+        .history__actions {
+          margin: 0;
+        }
+        &.history__item_r {
+          margin-left: auto;
+          margin-right: 0;
+        }
+      }
+      .history__item {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        border-radius: 100%;
+        margin-right: 20px;
+        position: relative;
+        user-select: none;
+        color: #cacaca;
+    
+        path {
+          fill: #cacaca;
+          transition: .15s;
+        }
+        &:hover {
+          path {
+            fill: inherit;
+          }
+        }
+        &.history__lang-select_active {
+          background-color: #eee;
+          border-radius: 100% 100% 0 0;
+        }
+        &.history__share {
+          margin-left: auto;
+        }
+        &.history__item_rounded {
+          width: 35px;
+          height: 35px;
+          padding: 10px;
+          margin: 0 3px;
+          transition: .1s;
+    
+          &:hover {
+            background-color: #eee;
+          }
+        }
+      }
+    }
+  
+    .lang-select {
+      top: 100%;
+      margin: 0;
+      right: 0px;
+      z-index: 30;
+      padding: 10px;
+      color: #515151;
+      border-radius: 5px;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 1px 1px 25px 0 rgba(0, 0, 0, 0.05);
+  
+      .lang-select__item {
+        padding: 5px;
+        display: flex;
+        transition: .1s;
+        border-radius: 5px;
+        align-items: center;
+  
+        
+        svg {
+          width: 20px;
+          height: 20px;
+          margin-right: 5px;
+        }
+        &:hover {
+          background-color: #eee;
+        }
+        &:not(:last-child) {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}

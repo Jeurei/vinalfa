@@ -1,0 +1,18 @@
+{
+  "lang": {
+    "isAuto": true,
+    "language": "en"
+  },
+  "colorTheme": {
+    "primary": "000000"
+  },
+  "font": {
+    "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap",
+    "name": "'Open Sans', sans-serif"
+  },
+  "varsion": {
+    "client": "BETA Vinalfa 1.0.0",
+    "api": "v1"
+  },
+  "script": "1.js"
+}

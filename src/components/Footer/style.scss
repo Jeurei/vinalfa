@@ -1,0 +1,40 @@
+@import 'const.scss';
+
+#module {
+  .module {
+
+    .module-footer {
+      right: 20px;
+      bottom: 10px;
+      font-size: .7em;
+      color: #515151;
+      text-align: right;
+      font-weight: bold;
+      position: absolute;
+      margin-bottom: 3px;
+      
+      a {
+        transition: .15s;
+        color: inherit;
+    
+        &:hover {
+          color: #515151;
+          text-decoration: none;
+        }
+      }
+      .module-footer__watermark {
+        margin: 0;
+        text-transform: uppercase;
+    
+        span {
+          font-weight: 400;
+          display: inline-block;
+        }
+      }
+      .module-footer__version {
+        font-size: .8em;
+        font-weight: normal;
+      }
+    }
+  }
+}

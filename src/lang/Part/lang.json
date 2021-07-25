@@ -1,0 +1,32 @@
+{
+  "ru": {
+    "part_categories": "Выбор категории",
+    "part_filter": {
+      "show": {
+        "default": "Показать выбранные",
+        "active": "Показать все"
+      },
+      "clear": "Очистить"
+    },
+    "part_item": {
+      "price": "Цены",
+      "qty": "шт."
+    }
+    
+  },
+  "en": {
+    "part_categories": "Select category",
+    "part_filter": {
+      "show": {
+        "default": "Show selected",
+        "active": "Show all"
+      },
+      "clear": "Clear"
+    },
+    "part_item": {
+      "price": "Prices",
+      "qty": "qty."
+    }
+    
+  }
+}

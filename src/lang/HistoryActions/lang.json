@@ -1,0 +1,24 @@
+{
+  "ru": {
+    "action_back": "Назад",
+    "action_forward": "Вперед",
+    "action_home": "Домой",
+    "action_bugtracker": "Bugtracker",
+    "action_feedback": "Обратная связь",
+    "action_copy": {
+      "default": "Скопировать",
+      "active": "Скопировано!"
+    }
+  },
+  "en": {
+    "action_back": "Back",
+    "action_forward": "Forward",
+    "action_home": "Home",
+    "action_bugtracker": "Bugtracker",
+    "action_feedback": "Feedback",
+    "action_copy": {
+      "default": "Copy",
+      "active": "Copied!"
+    }
+  }
+}

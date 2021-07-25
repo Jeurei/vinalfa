@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+// @import '_reboot.scss';
+@import 'const.scss';
+
+.ReactColorPicker-module_react_color_picker__1OEfS {
+  height: 250px !important;
+  width: 250px !important;
+}
+
+#module {
+  .module {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1200px;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 -7px;
+
+    img {
+      vertical-align: initial;
+      max-width: initial;
+    }
+    .w-b {
+      padding: 0;
+      flex: 0 0 100%;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+
+      @media (min-width: $breakpoint-tablet) {
+        flex-direction: initial;
+      }
+      & > * {
+        padding: 7px;
+      }
+    }
+    & > * {
+      padding: 7px;
+      flex: 0 0 100%;
+
+      @media (min-width: $breakpoint-tablet) {
+        flex: 1 1;
+      }
+    }
+    svg {
+      height: 100%;
+      vertical-align: inherit;
+    }
+    a {
+      text-decoration: inherit;
+
+      &:hover {
+        text-decoration: inherit;
+      }
+    }
+    * {
+      box-sizing: border-box;
+    }
+    h1.section__header {
+      font-size: 2em;
+    }
+    h2.section__header {
+      font-size: 1.6em;
+    }
+    h3.section__header {
+      color: #000;
+      font-size: 1.4em;
+    }
+    .section__header {
+      transition: 0.2s;
+      color: #515151;
+      margin-top: 0;
+      padding: 0;
+      font-weight: bold;
+      margin-bottom: 30px;
+
+      &.section__header_wd {
+        margin: 0;
+        margin-bottom: 5px;
+      }
+      & ~ * {
+        font-size: 0.9em;
+        font-weight: normal;
+      }
+    }
+
+    .form {
+      .form__ib {
+        position: relative;
+
+        .form__input {
+          font-size: 1.1em;
+        }
+      }
+      .form__button {
+        cursor: pointer;
+
+        &.primary {
+          border: 1px solid transparent;
+          color: #ffffff;
+          background: linear-gradient(to right, #507bf5 0%, #04c3e1 100%);
+        }
+        &.transparent {
+          background: transparent;
+          border: 1px solid transparent;
+        }
+      }
+      .form__input,
+      .form__select,
+      .form__button {
+        color: #515151;
+        width: 100%;
+        outline: 0;
+        font-weight: 600;
+        padding: 10px 20px;
+        border-radius: 22px;
+        line-height: 1.43em;
+        border: 1px solid #bcbdbf;
+
+        &[disabled] {
+          opacity: 0.5;
+        }
+        &:focus {
+          color: #000000;
+        }
+        &:not([disabled]):hover,
+        &:not([disabled]):focus {
+          box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+        }
+        &.form__select:focus {
+          border-radius: 22px 22px 0 0;
+        }
+      }
+    }
+  }
+
+  .hid-btn-popover:checked ~ .sct-popover {
+    display: block;
+  }
+  .sct-popover {
+    z-index: 1;
+    display: none;
+
+    transition: 0.15s;
+  }
+}

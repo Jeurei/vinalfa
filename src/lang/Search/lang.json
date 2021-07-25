@@ -1,0 +1,10 @@
+{
+  "ru": {
+    "search_title": "Поиск по VIN",
+    "search_input": "Введите VIN"
+  },
+  "en": {
+    "search_title": "Search by VIN",
+    "search_input": "Enter VIN"
+  }
+}

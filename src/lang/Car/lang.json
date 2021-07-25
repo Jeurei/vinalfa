@@ -1,0 +1,26 @@
+{
+  "ru": {
+    "car_info": {
+      "year": "Год",
+      "transmission": "КПП",
+      "engine_code": "ДВС"
+    },
+    "car_more": {
+      "default": "Доп. информация",
+      "active": "Закрыть",
+      "error": "Информация о данном товаре отсутствуе"
+    }
+  },
+  "en": {
+    "car_info": {
+      "year": "Year",
+      "transmission": "Transmission",
+      "engine_code": "Engine Code"
+    },
+    "car_more": {
+      "default": "Open",
+      "active": "Close",
+      "error": "Information about this product is not available"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import 'const.scss';
+
+#module {
+  .module {
+
+    .col {
+      flex: 1;
+      padding-left: $grid-gap;
+      padding-right: $grid-gap;
+    
+      $col-width: 100% / $grid-columns;
+      @for $i from 1 through $grid-columns {
+        // 0 - 480px
+        &.col-xs-#{$i} {
+          flex: 0 0 ($i * $col-width);
+          max-width: $i * $col-width;
+        }
+      }
+      @for $i from 1 through $grid-columns {
+        // 480px - 992px
+        @media (min-width: $breakpoint-mobile) {
+          &.col-sm-#{$i} {
+            flex: 0 0 ($i * $col-width);
+            max-width: $i * $col-width;
+          }
+        }
+      }
+      @for $i from 1 through $grid-columns {
+        // 992px - 1440px
+        @media (min-width: $breakpoint-tablet) {
+          &.col-md-#{$i} {
+            flex: 0 0 ($i * $col-width);
+            max-width: $i * $col-width;
+          }
+        }
+      }
+      @for $i from 1 through $grid-columns {
+        // 1440px - 1920px
+        @media (min-width: $breakpoint-desktop) {
+          &.col-lg-#{$i} {
+            flex: 0 0 ($i * $col-width);
+            max-width: $i * $col-width;
+          }
+        }
+      }
+      @for $i from 1 through $grid-columns {
+        // Больше чем 1920
+        @media (min-width: $breakpoint-wdesktop) {
+          &.col-xl-#{$i} {
+            flex: 0 0 ($i * $col-width);
+            max-width: $i * $col-width;
+          }
+        }
+      }
+    }
+  }
+}

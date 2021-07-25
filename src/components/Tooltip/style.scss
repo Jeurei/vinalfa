@@ -1,0 +1,30 @@
+#module {
+  .module {
+    .tooltip-b {
+      position: relative;
+  
+      .module-tooltip {
+        opacity: 0;
+        bottom: 100%;
+        transition: .15s;
+        padding: 5px 10px;
+        background: #fff;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        position: absolute;
+        pointer-events: none;
+        box-shadow: 1px 1px 25px 0 rgba(0, 0, 0, 0.05);
+  
+        &.tooltip_right {
+          right: 0;
+        }
+        &.tooltip_left {
+          left: 0;
+        }
+      }
+      &:hover .module-tooltip {
+        opacity: 1;
+      }
+    }
+  }
+}

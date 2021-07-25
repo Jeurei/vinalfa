@@ -1,0 +1,20 @@
+@import 'const.scss';
+
+#module {
+  .module {
+
+    .container {
+      width: 100%;
+      max-width: 1440px;
+      
+      margin: 0 auto;
+      padding-left: 2 * $grid-gap;
+      padding-right: 2 * $grid-gap;
+    
+      @media (min-width: $breakpoint-mobile) {
+        padding-left: 4 * $grid-gap;
+        padding-right: 4 * $grid-gap;
+      }
+    }
+  }
+}

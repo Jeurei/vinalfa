@@ -1,0 +1,13 @@
+@import 'const.scss';
+
+#module {
+  .module {
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      
+      margin-left: $grid-gap * -1;
+      margin-right: $grid-gap * -1;
+    }
+  }
+}

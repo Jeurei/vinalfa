@@ -1,0 +1,36 @@
+{
+  "ru": {
+    "found_result": {
+      "result": "Результат",
+      "elements": "элемент(а)"
+    },
+    "found_er": {
+      "title": "Что-то пошло не так",
+      "addition": "Попробуйте позже"
+    },
+    "found_item": {
+      "date": "Дата",
+      "catalog": "Каталог",
+      "engine": "Двигатель",
+      "transmission": "КПП",
+      "link": "Перейти"
+    }
+  },
+  "en": {
+    "found_result": {
+      "result": "Result",
+      "elements": "element(s)"
+    },
+    "found_er": {
+      "title": "Something went wrong",
+      "addition": "Try again later"
+    },
+    "found_item": {
+      "date": "Date",
+      "catalog": "Catalog",
+      "engine": "Engine",
+      "transmission": "Transmission",
+      "link": "Show"
+    }
+  }
+}

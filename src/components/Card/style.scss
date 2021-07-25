@@ -1,0 +1,18 @@
+#module {
+  .module {
+
+    .cwp {
+      position: relative;
+      
+      .cwp-w {
+        padding: 2em 20px 2em;
+        background-color: #fff;
+        box-shadow: 1px 1px 25px 0 rgba(0,0,0,0.05);
+    
+        &:hover .section__header {
+          color: #000000;
+        }
+      }
+    }
+  }
+}
